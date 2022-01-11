@@ -1,11 +1,22 @@
-let first = prompt("Введите ваш возраст")
-let second = prompt("Какой сейчас год")
+let first = prompt("Введите первое число")
+let second = prompt("Введите второе число")
 
 console.log(first)
 console.log(second)
 
 let c = Number(first)
-let n = Number(second)
+let d = Number(second)
 
  
- console.log(n - c )
+ 
+
+ if(d > c){
+    alert (second) 
+ }
+ if(c > d){
+   alert (first)
+}
+if(c==d){
+    alert("Эти числа равны")
+}
+ 
