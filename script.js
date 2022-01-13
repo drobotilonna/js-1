@@ -1,22 +1,18 @@
-let first = prompt("Введите первое число")
-let second = prompt("Введите второе число")
+let first = prompt("Введите свою оцэнку")
+
 
 console.log(first)
-console.log(second)
+
 
 let c = Number(first)
-let d = Number(second)
 
  
  
 
- if(d > c){
-    alert (second) 
+ if(first >=6){
+     alert("сдал")
  }
- if(c > d){
-   alert (first)
-}
-if(c==d){
-    alert("Эти числа равны")
-}
+ else{
+    alert("не сдал")  
+ }
  
