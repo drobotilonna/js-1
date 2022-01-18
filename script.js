@@ -1,22 +1,6 @@
-let first = prompt("Введите свою оценку")
-
-
-console.log(first)
-
-
-let c = Number(first)
-
+let amount = Number
  
- 
-
- if(first >=6 ){
-     alert("сдал")
+ console.log(amount)
+ for(let i = 1; i <= 21; i = i + 2 ){
+     console.log ("hello", i)
  }
-
- else{
-    alert("не сдал")  
- }
-
-
- 
- 
